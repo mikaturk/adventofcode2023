@@ -3,9 +3,8 @@ import kotlin.io.path.readLines
 private fun main() {
     val lib = AOCLib(1)
 
-    println("-- Day 01 --")
+    lib.printDay()
     println("-- Part 1 --")
-
     print("Example = ")
     println(Day01.part1(lib.getExampleInputPath(1).readLines()))
 

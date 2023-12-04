@@ -8,4 +8,8 @@ class AOCLib(private val day: Int) {
         inputs.resolve("%02d.txt".format(day))
     fun getExampleInputPath(part: Int = 1): Path =
         inputs.resolve("%02d_example%d.txt".format(day, part))
+
+    fun printDay() {
+        println("-- Day %02d --".format(day))
+    }
 }

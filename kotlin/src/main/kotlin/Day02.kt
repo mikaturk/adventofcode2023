@@ -5,7 +5,7 @@ import kotlin.math.max
 private fun main() {
     val lib = AOCLib(2)
 
-    println("-- Day 02 --")
+    lib.printDay()
     println("-- Part 1 --")
 
     println("Example = ")
