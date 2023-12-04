@@ -68,9 +68,9 @@ object Day02 {
     private fun parseRevealed(revealString: String): Revealed {
         val matchResults = revealReg.findAll(revealString)
 
-        var red = 0;
-        var green = 0;
-        var blue = 0;
+        var red = 0
+        var green = 0
+        var blue = 0
 
         for (mr in matchResults) {
             val amount = mr.groupValues.getOrNull(1)?.toIntOrNull()!!
